@@ -33,9 +33,9 @@
 }
 
 .technologiesContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  gap: 3rem;
   margin-bottom: 20px;
 }
 
