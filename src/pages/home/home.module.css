@@ -1,0 +1,37 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: left;
+}
+
+.titleText {
+  margin-top: 0.85rem;
+  margin-bottom: 0.85rem;
+}
+
+.nameContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mediumSizeText {
+  font-size: 1rem;
+}
+
+.bigSizeText {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mediumSizeText {
+    font-size: 0.8rem;
+  }
+
+  .bigSizeText {
+    flex-wrap: wrap;
+    font-size: 2rem;
+  }
+}

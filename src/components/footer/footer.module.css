@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+span {
+  display: flex;
+}
+
+.footerIcon {
+  transition: color 0.3s ease-in-out;
+}
+
+.footerIcon:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,88 @@
+:root {
+  font-family: 'Nanum Gothic', sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary-color: #f3b3ff;
+  --secondary-color: #673b72;
+  --background-color: #242424;
+  --foreground-color: #f2f2f2;
+  --foreground-opacity-color: #f2f2f226;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+[data-theme='dark'] {
+  --primary-color: #673b72;
+  --secondary-color: #f3b3ff;
+  --background-color: #f2f2f2;
+  --foreground-color: #242424;
+  --foreground-opacity-color: #24242426;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+}
+
+.pageTitleText {
+  margin-top: 90px;
+  font-size: 2rem;
+}
+
+/* 
+  X-Small < 576px
+  Small >= 576px
+  Medium >= 768px
+  Large >= 992px
+  Extra Large >= 1200px
+  Extra extra large >= 1400px
+*/

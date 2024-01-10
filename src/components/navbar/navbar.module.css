@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  padding-right: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  display: flex;
+  color: var(--foreground-color);
+  text-decoration: inherit;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.currentRoute {
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+  X-Small < 576px
+  Small >= 576px
+  Medium >= 768px
+  Large >= 992px
+  Extra Large >= 1200px
+  Extra extra large >= 1400px
+*/
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {}

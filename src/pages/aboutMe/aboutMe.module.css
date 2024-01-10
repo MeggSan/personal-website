@@ -1,0 +1,49 @@
+.aboutMeSection {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.bigSizeText {
+  font-size: 3rem;
+  min-height: 4.5rem;
+}
+
+.name {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.aboutMeText {
+  text-align: left;
+}
+
+.personalPhoto {
+  width: 250px;
+}
+
+.aboutMeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.subtitleText {
+  font-size: 2rem;
+}
+
+.technologiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMeContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+}

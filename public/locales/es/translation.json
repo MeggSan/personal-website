@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "aboutMe": "Sobre mí",
+    "projects": "Proyectos",
+    "lab": "Laboratorio"
+  },
+  "home": {
+    "hello1": "Hola, mi nombre es",
+    "name": "Meggie Sánchez",
+    "hello2": "Y yo soy"
+  },
+  "roles": {
+    "frontendDeveloper": "Desarrolladora Frontend",
+    "webDeveloper": "Desarrolladora Web",
+    "mobileDeveloper": "Desarrolladora Móvil",
+    "computerEngineer": "Ingeniera en Computación"
+  },
+  "aboutMe": {
+    "aboutMeText1": "👩🏻‍💻 Soy una ingeniera especializada en frontend, soy organizada, orientada a los resultados y a los detalles, con muchas ganas de aprender y con 5 años de experiencia desarrollando, manteniendo y entregando diferentes aplicaciones móviles y sistemas web.",
+    "aboutMeText2": "📚 Tengo conocimientos competentes en ReactJS, JavaScript, TypeScript, HTML5 y CSS3, que son mis tecnologías favoritas para trabajar, pero también tengo experiencia con React Native, NextJS y Angular 2+.",
+    "aboutMeText3": "📱 Me apasiona transformar los requisitos comerciales en diseños/interfaces funcionales y responsivos.",
+    "aboutMeText4": "🎯 El mejor lugar para trabajar es donde me alienten a crecer y desarrollar mis habilidades, generar un impacto real y continuar construyendo una carrera exitosa.",
+    "technologiesAndTools": "Tecnologías y herramientas que he usado"
+  },
+  "projects": {
+    "1": {
+      "title": "Botica Junin",
+      "description": "Aplicación móvil de comercio electrónico para farmacias. Incluye: registro e inicio de sesión de usuarios, ubicación de las tiendas, promociones, carrito de compras, entrega a domicilio o en tienda, contacto con la tienda y recordatorio de medicamentos.",
+      "type": "Aplicación Móvil",
+      "year": "2018",
+      "links": null
+    },
+    "2": {
+      "title": "Wayu Inc",
+      "description": "Sitio web corporativo para ofrecer diferentes servicios de desarrollo en tecnología, marketing digital y diseño. También tiene un formulario de contacto, acerca de nosotros y las diferentes tecnologías con las que se ha trabajado.",
+      "type": "Página Web",
+      "year": "2019",
+      "links": { "web": "https://wayuinc.netlify.app/", "github": null, "playstore": null, "appstore": null }
+    },
+    "3": {
+      "title": "Slon Care",
+      "description": "Sistema web para ahorros en salud con un portal de pago, donde diferentes usuarios pueden obtener servicios de médicos y/o clínicas como citas médicas, operaciones quirúrgicas, tickets de emergencia, entre otros.",
+      "type": "Sistema Web",
+      "year": "2019",
+      "links": { "web": "https://sloncare.netlify.app/", "github": "" }
+    },
+    "4": {
+      "title": "Bison Reserve Landing Page",
+      "description": "Sitio web informativo sobre servicios de reserva para centros deportivos y gimnasios, planes y precios, e información sobre las próximas versiones de Bison Reserve en otras áreas.",
+      "type": "Página Web",
+      "year": "2020",
+      "links": { "web": "https://bison-gym.netlify.app/", "github": "" }
+    },
+    "5": {
+      "title": "Bison Reserve App",
+      "description": "Aplicación móvil del sistema Bison Reserve, donde los usuarios pertenecientes a un centro deportivo o gimnasio pueden ver: disciplinas, calendario de clases con su horario y entrenador, reserva de clases que desean asistir, puntuación de clases en las que un usuario participó, pago a través de la plataforma, registro de los últimos pagos realizados, noticias e información relevantes del centro deportivo/gimnasio.",
+      "type": "Aplicación Móvil",
+      "year": "2020",
+      "links": null
+    },
+    "6": {
+      "title": "Marbyl App",
+      "description": "Aplicación móvil para descubrir, escuchar, interactuar y compartir en las redes sociales podcasts o 'marbyl/momentos'.",
+      "type": "Aplicación Móvil",
+      "year": "2023",
+      "links": {
+        "web": null,
+        "github": null,
+        "playstore": "https://play.google.com/store/apps/details?id=com.marbyl&pcampaignid=web_share",
+        "appstore": "https://apps.apple.com/us/app/marbyl/id1606442385"
+      }
+    },
+    "7": {
+      "title": "Pavimenti Store App",
+      "description": "Aplicación móvil de comercio electrónico para la venta de materiales de construcción. Incluye: registro e inicio de sesión de usuarios, ubicación de la tienda, promociones, registro de pagos, entrega a domicilio o en tienda y contacto con la tienda.",
+      "type": "Aplicación Móvil",
+      "year": "2018",
+      "links": null
+    },
+    "8": {
+      "title": "Alternos",
+      "description": "Sitio web corporativo con estructura web de aterrizaje dedicado a la producción y difusión de la comunicación. Secciones de: acerca de nosotros, servicios, noticias, entre otros.",
+      "type": "Página Web",
+      "year": "2019",
+      "links": { "web": "http://test-alternos.s3-website-us-east-1.amazonaws.com/", "github": "" }
+    }
+  },
+  "projectDetail": {
+    "title": "Título",
+    "description": "Descripción",
+    "type": "Tipo",
+    "year": "Año",
+    "technologies": "Tecnologías",
+    "links": "Enlaces",
+    "web": "Web",
+    "appstore": "App Store",
+    "playstore": "Play Store"
+  }
+}

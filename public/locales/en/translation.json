@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "aboutMe": "About Me",
+    "projects": "Projects",
+    "lab": "Lab"
+  },
+  "home": {
+    "hello1": "Hello, my name is",
+    "name": "Meggie Sanchez",
+    "hello2": "And I'm a"
+  },
+  "roles": {
+    "frontendDeveloper": "Frontend Developer",
+    "webDeveloper": "Web Developer",
+    "mobileDeveloper": "Mobile Developer",
+    "computerEngineer": "Computer Engineer"
+  },
+  "aboutMe": {
+    "aboutMeText1": "👩🏻‍💻 I am a results-driven, detail-oriented, eager learner, and organized frontend engineer with 5 years of experience developing, maintaining, and delivering different mobile applications and web systems.",
+    "aboutMeText2": "📚 I have proficient knowledge in ReactJS, JavaScript, TypeScript, HTML5, and CSS3, which is my favorite stack to work with, but I also have experience with React Native, NextJS, and Angular 2+.",
+    "aboutMeText3": "📱 I am passionate about translating business requirements into functional and responsive layouts/interfaces.",
+    "aboutMeText4": "🎯 The best place to work is where I’m encouraged to grow and develop my skills, make a real impact, and continue building a successful career.",
+    "technologiesAndTools": "Technologies and tools I have used"
+  },
+  "projects": {
+    "1": {
+      "title": "Botica Junin",
+      "description": "E-commerce mobile application for pharmacy. It has: registration and user login, stores' location, promotions, shopping cart, physical or home delivery of products, store contact and medication reminder.",
+      "type": "Mobile Application",
+      "year": "2018",
+      "links": null
+    },
+    "2": {
+      "title": "Wayu Inc",
+      "description": "Corporate website to offer different development services in technology, digital marketing and design. It also has a contact form, about us, and the different technologies that have been worked with.",
+      "type": "Website",
+      "year": "2019",
+      "links": { "web": "https://wayuinc.netlify.app/", "github": null, "playstore": null, "appstore": null }
+    },
+    "3": {
+      "title": "Slon Care",
+      "description": "Web system for health savings with a payment gateway, where different users can obtain services from doctors and / or clinics such as medical appointments, surgical operations, emergency tickets, among others.",
+      "type": "Websystem",
+      "year": "2019",
+      "links": { "web": "https://sloncare.netlify.app/", "github": "" }
+    },
+    "4": {
+      "title": "Bison Reserve Landing Page",
+      "description": "Informative website on reservation services for sports centers and gyms, plans and prices, and information on upcoming versions of Bison Reserve in other areas.",
+      "type": "Website",
+      "year": "2020",
+      "links": { "web": "https://bison-gym.netlify.app/", "github": "" }
+    },
+    "5": {
+      "title": "Bison Reserve App",
+      "description": "Mobile application of the Bison Reserve system, where users belonging to a sports center or gym can observe: disciplines, class calendar with their schedule and coach, reservation of classes they wish to attend, score of classes in which a user participated, payment through the platform, record of the last payments made, relevant news and information from the sports center / gym.",
+      "type": "Mobile Application",
+      "year": "2020",
+      "links": null
+    },
+    "6": {
+      "title": "Marbyl App",
+      "description": "Mobile application for discovering, listening to, interacting with, and sharing on social media podcasts or 'marbyl/moments'",
+      "type": "Mobile Application",
+      "year": "2023",
+      "links": {
+        "web": null,
+        "github": null,
+        "playstore": "https://play.google.com/store/apps/details?id=com.marbyl&pcampaignid=web_share",
+        "appstore": "https://apps.apple.com/us/app/marbyl/id1606442385"
+      }
+    },
+    "7": {
+      "title": "Pavimenti Store App",
+      "description": "E-commerce mobile application for the sale of construction materials. It has: user registration and login, store location, promotions, payment registration, physical or home delivery of products, and store contact.",
+      "type": "Mobile Application",
+      "year": "2018",
+      "links": null
+    },
+    "8": {
+      "title": "Alternos",
+      "description": "Corporate website with a landing web structure dedicated to communication production and dissemination. Sections of: about us, services, news, among others.",
+      "type": "Website",
+      "year": "2019",
+      "links": { "web": "http://test-alternos.s3-website-us-east-1.amazonaws.com/", "github": "" }
+    }
+  },
+  "projectDetail": {
+    "title": "Title",
+    "description": "Description",
+    "type": "Type",
+    "year": "Year",
+    "technologies": "Technologies",
+    "links": "Links",
+    "web": "Web",
+    "appstore": "App Store",
+    "playstore": "Play Store"
+  }
+}

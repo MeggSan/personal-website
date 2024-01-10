@@ -1,0 +1,27 @@
+.typingEffectText {
+  position: relative;
+  color: var(--primary-color);
+  min-height: auto;
+}
+
+.typingEffectText::before {
+  content: "";
+  right: -8px;
+  top: 50%;
+  position: absolute;
+  height: 35px;
+  width: 2px;
+  background: var(--primary-color);
+  transform: translateY(-40%);
+  animation: blink 0.7s infinite;
+}
+
+.typingEffectText.stop-blinking::before {
+  animation: none;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

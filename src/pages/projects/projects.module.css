@@ -1,0 +1,32 @@
+.projectsContainer {
+  text-align: center;
+}
+
+.projectsListContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.projectContainer {
+  border: 1px solid var(--foreground-opacity-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  height: 550px;
+}
+
+.projectContainer:hover {
+  background-color: var(--foreground-opacity-color);
+}
+
+.projectMobileImage {
+  height: 85%;
+}
+
+.projectWebImage {
+  width: 90%;
+}
