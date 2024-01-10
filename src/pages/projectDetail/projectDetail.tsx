@@ -111,8 +111,8 @@ export const ProjectDetail = () => {
             {PROJECTS_LIST[projectId].technologies.map((technology, index) => {
               return (
                 <div className={styles.technologiesContainer} key={index}>
-                  <p className={styles.categoryContentText}>{technology}&nbsp;&nbsp;</p>
                   {TECHNOLOGIES_ICONS[technology.replace(' ', '').toLowerCase()]}&nbsp;&nbsp;
+                  <p className={styles.categoryContentText}>{technology}&nbsp;&nbsp;</p>
                 </div>
               );
             })}
@@ -124,6 +124,8 @@ export const ProjectDetail = () => {
             <div className={styles.technologiesContainer}>
               {t(`projects.${projectId}.links.web`).slice(0, 4) === HTTP ? (
                 <div className={styles.technologiesContainer}>
+                  <DesktopIcon />
+                  &nbsp;&nbsp;
                   <a
                     className={styles.categoryContentText}
                     href={t(`projects.${projectId}.links.web`)}
@@ -132,12 +134,12 @@ export const ProjectDetail = () => {
                   >
                     {t('projectDetail.web')}
                   </a>
-                  &nbsp;&nbsp;
-                  <DesktopIcon />
                 </div>
               ) : null}
               {t(`projects.${projectId}.links.appstore`).slice(0, 4) === HTTP ? (
                 <div className={styles.technologiesContainer}>
+                  <MobileIcon />
+                  &nbsp;&nbsp;
                   <a
                     className={styles.categoryContentText}
                     href={t(`projects.${projectId}.links.appstore`)}
@@ -146,12 +148,12 @@ export const ProjectDetail = () => {
                   >
                     {t('projectDetail.appstore')}
                   </a>
-                  &nbsp;&nbsp;
-                  <MobileIcon />
                 </div>
               ) : null}
               {t(`projects.${projectId}.links.playstore`).slice(0, 4) === HTTP ? (
                 <div className={styles.technologiesContainer}>
+                  &nbsp;&nbsp;
+                  <MobileIcon />
                   &nbsp;&nbsp;
                   <a
                     className={styles.categoryContentText}
@@ -161,8 +163,6 @@ export const ProjectDetail = () => {
                   >
                     {t('projectDetail.playstore')}
                   </a>
-                  &nbsp;&nbsp;
-                  <MobileIcon />
                 </div>
               ) : null}
             </div>
