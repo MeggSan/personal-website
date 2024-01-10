@@ -7,9 +7,9 @@
 .typingEffectText::before {
   content: "";
   right: -8px;
-  top: 50%;
+  top: 52%;
   position: absolute;
-  height: 35px;
+  height: 2rem;
   width: 2px;
   background: var(--primary-color);
   transform: translateY(-40%);
@@ -23,5 +23,22 @@
 @keyframes blink {
   50% {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .typingEffectText::before {
+    height: 1.4rem;
+  }
+
+  .typingEffectTextAboutMe::before {
+    top: 35%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .typingEffectTextHome::before {
+    top: 48%;
+    height: 1rem;
   }
 }

@@ -46,4 +46,8 @@
     flex-wrap: wrap;
     gap: 0px;
   }
+
+  .bigSizeText {
+    font-size: 2rem;
+  }
 }

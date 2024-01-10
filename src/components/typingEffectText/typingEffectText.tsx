@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import styles from './typingEffectText.module.css';
 
-export const TypingEffectText = () => {
+export const TypingEffectText = ({ isHome = false }: { isHome: boolean }) => {
   const { t } = useTranslation();
 
   const rolesWords = [
@@ -51,7 +51,9 @@ export const TypingEffectText = () => {
   };
 
   return (
-    <span className={styles.typingEffectText}>
+    <span
+      className={`${styles.typingEffectText} ${isHome ? styles.typingEffectTextHome : styles.typingEffectTextAboutMe}`}
+    >
       <b>{text}</b>
     </span>
   );

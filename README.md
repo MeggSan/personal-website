@@ -1,17 +1,17 @@
-# Project Title:
+# Project Title
 
 Meggie's personal website
 
-# About The App
+# About The Project
 
 This project is my personal website where I describe who I am, what I do professionally, what my portfolio is, and how to contact me.
 
-## Live Link / Demo Link:
+## Live Link / Demo Link
 
 Access my website at
 [Meggie's personal website](https://meggsan.netlify.app/)
 
-## Technologies Used:
+## Technologies Used
 
 JavaScript, HTML, CSS, React, Vite
 

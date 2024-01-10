@@ -17,7 +17,7 @@ export const Home = () => {
       </div>
       <span className={`${styles.titleText} ${styles.bigSizeText}`}>
         {t('home.hello2')}&nbsp;
-        <TypingEffectText />
+        <TypingEffectText isHome={true} />
       </span>
     </section>
   );

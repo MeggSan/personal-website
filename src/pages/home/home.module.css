@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  text-align: left;
 }
 
 .titleText {
@@ -22,6 +21,7 @@
 }
 
 .bigSizeText {
+  flex-wrap: wrap;
   font-size: 3rem;
 }
 
@@ -31,7 +31,12 @@
   }
 
   .bigSizeText {
-    flex-wrap: wrap;
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bigSizeText {
+    font-size: 1.3rem;
   }
 }
