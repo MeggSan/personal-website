@@ -63,7 +63,7 @@ export const AboutMe = () => {
     <section className={styles.aboutMeSection}>
       <h2 className={`${styles.name} pageTitleText`}>{t('home.name')}</h2>
       <span className={`${styles.titleText} ${styles.bigSizeText}`}>
-        <TypingEffectText />
+        <TypingEffectText isHome={false} />
       </span>
       <div className={styles.aboutMeContainer}>
         <img className={styles.personalPhoto} src={darkMode ? lightBgPhoto : darkBgPhoto} alt='' />
