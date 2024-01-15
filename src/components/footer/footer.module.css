@@ -8,14 +8,31 @@ footer {
   right: 0;
 }
 
-span {
-  display: flex;
-}
-
 .footerIcon {
   transition: color 0.3s ease-in-out;
 }
 
+.footerIcon:first-child {
+  margin-top: 0px;
+}
+
 .footerIcon:hover {
   color: var(--primary-color);
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    bottom: -140px;
+  }
+
+  .footerIcon {
+    margin-top: 20px;
+  }
+
+  .pipeSeparator {
+    display: none;
+  }
 }

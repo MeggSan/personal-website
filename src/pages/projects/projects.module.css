@@ -31,3 +31,9 @@
 .projectWebImage {
   width: 90%;
 }
+
+@media screen and (max-width: 375px) {
+  .projectsListContainer {
+    margin-bottom: 15px;
+  }
+}

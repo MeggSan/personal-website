@@ -4,7 +4,7 @@ export const Tooltip = ({ icon, technologyName }: { icon: string; technologyName
   return (
     <div className={styles.tooltipContainer}>
       <img className={styles.technologyIcon} src={icon} alt={technologyName} />
-      <span className={styles.tooltiptext}>{technologyName}</span>
+      <span className={styles.tooltipText}>{technologyName}</span>
     </div>
   );
 };

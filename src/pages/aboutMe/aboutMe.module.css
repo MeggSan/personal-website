@@ -51,3 +51,9 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .technologiesContainer {
+    margin-bottom: 15px;
+  }
+}

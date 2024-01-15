@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.tooltipContainer .tooltiptext {
+.tooltipContainer .tooltipText {
   visibility: hidden;
   width: 100px;
   background-color: var(--primary-color);
@@ -20,9 +20,10 @@
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
+  justify-content: center;
 }
 
-.tooltipContainer .tooltiptext::after {
+.tooltipContainer .tooltipText::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -33,7 +34,7 @@
   border-color: var(--primary-color) transparent transparent transparent;
 }
 
-.tooltipContainer:hover .tooltiptext {
+.tooltipContainer:hover .tooltipText {
   visibility: visible;
   opacity: 1;
 }
