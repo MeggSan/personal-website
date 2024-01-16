@@ -8,15 +8,16 @@ footer {
   right: 0;
 }
 
-.footerIcon {
+.footerIconContainer {
   transition: color 0.3s ease-in-out;
+  align-items: center;
 }
 
-.footerIcon:first-child {
+.footerIconContainer:first-child {
   margin-top: 0px;
 }
 
-.footerIcon:hover {
+.footerIconContainer:hover {
   color: var(--primary-color);
 }
 
@@ -28,7 +29,7 @@ footer {
     bottom: -14rem;
   }
 
-  .footerIcon {
+  .footerIconContainer {
     margin-top: 20px;
   }
 
