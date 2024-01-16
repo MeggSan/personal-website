@@ -74,7 +74,7 @@ export const AboutMe = () => {
           <p className={styles.aboutMeText}>{t('aboutMe.aboutMeText4')}</p>
         </div>
       </div>
-      <h2 className={`${styles.name} ${styles.subtitleText}`}>{t('aboutMe.technologiesAndTools')}</h2>
+      <h2 className={`${styles.title} ${styles.subtitleText}`}>{t('aboutMe.technologiesAndTools')}</h2>
       <div className={styles.technologiesContainer}>
         {technologiesTools.map(({ icon, name, darkIcon }) => {
           return <Tooltip key={name} icon={darkMode && darkIcon ? darkIcon : icon} technologyName={name} />;

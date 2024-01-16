@@ -1,6 +1,7 @@
-import Slider from 'react-slick';
+import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import Slider from 'react-slick';
 
 import { PROJECTS_LIST } from '@constants/projects';
 import { ReactIcon } from '@assets/icons/reactIcon';
@@ -72,6 +73,12 @@ export const ProjectDetail = () => {
   const location = useLocation();
   const projectId = location.pathname.split('/')[2];
 
+  useEffect(() => {
+    if (window.scrollY !== 0) {
+      window.scrollTo(0, 0);
+    }
+  }, []);
+
   return (
     <section className={styles.projectDetailContainer}>
       <h2 className='pageTitleText'>{t(`projects.${projectId}.title`)}</h2>
@@ -105,12 +112,12 @@ export const ProjectDetail = () => {
           categoryText={t('projectDetail.year')}
           categoryContentText={t(`projects.${projectId}.year`)}
         />
-        <div className={styles.projectDetailInformationItem}>
+        <div className={`${styles.projectDetailInformationItem} ${styles.projectDetailTechnologies}`}>
           <h3 className={styles.categoryText}>{t('projectDetail.technologies')}</h3>
           <div className={styles.technologiesContainer}>
             {PROJECTS_LIST[projectId].technologies.map((technology, index) => {
               return (
-                <div className={styles.technologiesContainer} key={index}>
+                <div className={`${styles.technologiesContainer} ${styles.technologiesContainerMg}`} key={index}>
                   {TECHNOLOGIES_ICONS[technology.replace(' ', '').toLowerCase()]}&nbsp;&nbsp;
                   <p className={styles.categoryContentText}>{technology}&nbsp;&nbsp;</p>
                 </div>

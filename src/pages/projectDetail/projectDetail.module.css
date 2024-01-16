@@ -8,8 +8,7 @@
 }
 
 .sliderProjectDetailMobile {
-  min-width: 205px;
-  width: 320px;
+  max-width: 360px;
 }
 
 .sliderProjectDetailWeb {
@@ -29,7 +28,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
-  margin: 4rem 0 80px 0;
+  margin: 8rem 0;
 }
 
 .projectDetailInformationItem {
@@ -38,11 +37,20 @@
   justify-content: center;
   border: 1px solid var(--foreground-opacity-color);
   border-radius: 16px;
-  padding: 1rem;
+  padding: 3rem;
+}
+
+.projectDetailTechnologies {
+  padding-bottom: 0;
+}
+
+.technologiesContainerMg {
+  margin-bottom: 3rem;
 }
 
 .categoryText {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .categoryContentText {
@@ -79,8 +87,24 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .projectDetailInformationContainer {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sliderProjectDetailMobile {
+    max-width: 300px;
+  }
+
+  .sliderProjectDetailWeb {
+    max-width: 300px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .projectDetailInformationContainer {
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
   }
 }

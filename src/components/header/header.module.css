@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2.5rem;
   box-shadow: 0px 4px 4px var(--foreground-opacity-color);
   position: fixed;
   top: 0;
@@ -21,14 +21,13 @@ header {
 }
 
 .header {
-  padding-left: 2rem;
+  /* padding: 0 2rem; */
 }
 
 @media screen and (max-width: 768px) {
   .menuIconContainer {
     display: flex;
     align-items: center;
-    margin-right: 2rem;
   }
 
   .menuIconContainer:hover {

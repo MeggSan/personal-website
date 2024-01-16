@@ -23,9 +23,9 @@ footer {
 @media screen and (max-width: 375px) {
   footer {
     display: block;
-    width: 100px;
+    width: 12rem;
     margin: 0 auto;
-    bottom: -140px;
+    bottom: -14rem;
   }
 
   .footerIcon {

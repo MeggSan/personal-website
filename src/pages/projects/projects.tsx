@@ -20,7 +20,7 @@ export const Projects = () => {
         {Object.values(PROJECTS_LIST).map(({ id, title, type, images }) => {
           return (
             <Link className={styles.projectContainer} to={`/${PROJECTS}/${id}`} key={id}>
-              <p>{title}</p>
+              <p className={styles.projectTitle}>{title}</p>
               <img
                 className={type === WEB ? styles.projectWebImage : styles.projectMobileImage}
                 src={images[0]}
