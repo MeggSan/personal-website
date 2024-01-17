@@ -5,10 +5,10 @@ import { Navbar } from '@components/navbar/navbar';
 import { DarkModeContext } from '@contexts/darkModeContext';
 import { MenuIcon } from '@assets/icons/menuIcon';
 
-import styles from './header.module.css';
+import MSLogoDark from '@assets/images/logo/MS-logo-dark.svg';
+import MSLogoLight from '@assets/images/logo/MS-logo-light.svg';
 
-const MSLogoDark = '../../images/logo/MS-logo-dark.svg';
-const MSLogoLight = '../../images/logo/MS-logo-light.svg';
+import styles from './header.module.css';
 
 export const Header = () => {
   const { darkMode } = useContext(DarkModeContext);
