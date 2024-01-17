@@ -5,10 +5,10 @@ import { Navbar } from '@components/navbar/navbar';
 import { DarkModeContext } from '@contexts/darkModeContext';
 import { MenuIcon } from '@assets/icons/menuIcon';
 
-import MSLogoDark from '@assets/images/logo/MS-logo-dark.svg';
-import MSLogoLight from '@assets/images/logo/MS-logo-light.svg';
-
 import styles from './header.module.css';
+
+const MSLogoDark = '../../images/logo/MS-logo-dark.svg';
+const MSLogoLight = '../../images/logo/MS-logo-light.svg';
 
 export const Header = () => {
   const { darkMode } = useContext(DarkModeContext);
@@ -22,13 +22,29 @@ export const Header = () => {
     <header>
       <div className={styles.header}>
         <Link to={`/`}>
-          {darkMode ? (
-            <img className={styles.logo} src={MSLogoDark} alt='MS Logo Dark Mode Image' width='50' height='50' />
-          ) : (
-            <img className={styles.logo} src={MSLogoLight} alt='MS Logo Light Mode Image' width='50' height='50' />
-          )}
+          <picture>
+            {darkMode ? (
+              <img
+                className={styles.logo}
+                src={MSLogoDark}
+                alt='MS Logo Dark Mode Image'
+                width='50'
+                height='50'
+                decoding='async'
+              />
+            ) : (
+              <img
+                className={styles.logo}
+                src={MSLogoLight}
+                alt='MS Logo Light Mode Image'
+                width='50'
+                height='50'
+                decoding='async'
+              />
+            )}
+          </picture>
         </Link>
-        <button className={styles.menuIconContainer} onClick={onClickMenu}>
+        <button className={styles.menuIconContainer} onClick={onClickMenu} aria-label='menu'>
           <MenuIcon />
         </button>
       </div>

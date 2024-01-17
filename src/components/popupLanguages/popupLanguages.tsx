@@ -44,6 +44,7 @@ export const PopupLanguages = () => {
       <button
         className={`${styles.buttonPopup} ${isActivePopup ? null : styles.buttonPopupIsInactive}`}
         onClick={onClickPopupLanguages}
+        aria-label={`change current language: ${i18n.resolvedLanguage}`}
       >
         {i18n.resolvedLanguage?.toUpperCase()}&nbsp;
         <InternalizationIcon />
@@ -52,7 +53,12 @@ export const PopupLanguages = () => {
         {Object.entries(LANGUAGES).map((lng) => {
           const [key, value] = lng;
           return (
-            <button className={styles.buttonLngAbbr} key={key} onClick={() => changeLanguage(key)}>
+            <button
+              className={styles.buttonLngAbbr}
+              key={key}
+              onClick={() => changeLanguage(key)}
+              aria-label={value.name}
+            >
               {value.abbreviation}
             </button>
           );
