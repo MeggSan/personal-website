@@ -82,7 +82,7 @@
       "description": "Sitio web corporativo con estructura web de aterrizaje dedicado a la producción y difusión de la comunicación. Secciones de: acerca de nosotros, servicios, noticias, entre otros.",
       "type": "Página Web",
       "year": "2019",
-      "links": { "web": "http://test-alternos.s3-website-us-east-1.amazonaws.com/", "github": "" }
+      "links": { "web": "https://alternos.netlify.app/", "github": "" }
     }
   },
   "projectDetail": {

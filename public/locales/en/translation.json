@@ -82,7 +82,7 @@
       "description": "Corporate website with a landing web structure dedicated to communication production and dissemination. Sections of: about us, services, news, among others.",
       "type": "Website",
       "year": "2019",
-      "links": { "web": "http://test-alternos.s3-website-us-east-1.amazonaws.com/", "github": "" }
+      "links": { "web": "https://alternos.netlify.app/", "github": "" }
     }
   },
   "projectDetail": {
