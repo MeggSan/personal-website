@@ -22,6 +22,8 @@ import { MobileIcon } from '@assets/icons/mobileIcon';
 import { ProjectType, type Technology } from '@interfaces/types.d';
 
 import styles from './projectDetail.module.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import './reactSlick.css';
 
 const { MOBILE } = ProjectType;

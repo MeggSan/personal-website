@@ -23,9 +23,9 @@ export const Header = () => {
       <div className={styles.header}>
         <Link to={`/`}>
           {darkMode ? (
-            <img className={styles.logo} src={MSLogoDark} alt='MS Logo Dark Mode Image' />
+            <img className={styles.logo} src={MSLogoDark} alt='MS Logo Dark Mode Image' width='50' height='50' />
           ) : (
-            <img className={styles.logo} src={MSLogoLight} alt='MS Logo Light Mode Image' />
+            <img className={styles.logo} src={MSLogoLight} alt='MS Logo Light Mode Image' width='50' height='50' />
           )}
         </Link>
         <button className={styles.menuIconContainer} onClick={onClickMenu}>
