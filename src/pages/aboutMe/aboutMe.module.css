@@ -6,14 +6,7 @@
 .bigSizeText {
   font-size: 3rem;
   min-height: 4.5rem;
-}
-
-.title {
-  margin: 4rem 0;
-}
-
-.name {
-  margin: 2rem 0;
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 .aboutMeText {
@@ -33,7 +26,9 @@
 }
 
 .subtitleText {
+  margin: 4rem 0;
   font-size: 2rem;
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 .technologiesContainer {

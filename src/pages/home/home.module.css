@@ -23,6 +23,7 @@
 .bigSizeText {
   flex-wrap: wrap;
   font-size: 3rem;
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 @media screen and (max-width: 768px) {

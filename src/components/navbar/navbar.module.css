@@ -15,11 +15,11 @@ a {
 
 a:hover {
   color: var(--primary-color);
-  font-weight: bold;
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 .currentRoute {
-  font-weight: bold;
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 ul {

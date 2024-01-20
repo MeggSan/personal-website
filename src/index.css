@@ -1,14 +1,31 @@
-:root {
-  font-family: 'Nanum Gothic', sans-serif;
-  letter-spacing: 0.5px;
-  line-height: 1.5;
+@font-face {
+  font-family: "Nanum Gothic";
+  font-style: normal;
   font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/NanumGothic-Regular.woff2") format("woff2");
+}
 
+@font-face {
+  font-family: "Nanum Gothic Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/NanumGothic-Bold.woff2") format("woff2");
+}
+
+:root {
+  --nanum-gothic-font: 'Nanum Gothic', sans-serif;
+  --nanum-gothic-bold-font: 'Nanum Gothic Bold', sans-serif;
   --primary-color: #f3b3ff;
   --secondary-color: #673b72;
   --background-color: #242424;
   --foreground-color: #f2f2f2;
   --foreground-opacity-color: #f2f2f226;
+
+  font-family: var(--nanum-gothic-font);
+  letter-spacing: 0.5px;
+  line-height: 1.5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -81,6 +98,7 @@ section {
   margin-top: 90px;
   margin-bottom: 30px;
   font-size: 2rem;
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 /* 

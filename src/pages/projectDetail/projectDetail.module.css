@@ -49,13 +49,13 @@
 }
 
 .categoryText {
-  font-weight: bold;
+  font-family: var(--nanum-gothic-bold-font);
   margin-bottom: 20px;
 }
 
 .categoryContentText {
   color: var(--primary-color);
-  font-weight: bold;
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 .technologiesContainer {

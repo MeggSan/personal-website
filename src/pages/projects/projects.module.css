@@ -22,6 +22,7 @@
 
 .projectContainer:hover {
   background-color: var(--foreground-opacity-color);
+  font-family: var(--nanum-gothic-bold-font);
 }
 
 .projectMobileImage {

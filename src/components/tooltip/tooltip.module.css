@@ -9,7 +9,7 @@
   width: 100px;
   background-color: var(--primary-color);
   color: var(--background-color);
-  font-weight: bold;
+  font-family: var(--nanum-gothic-bold-font);
   text-align: center;
   border-radius: 10px;
   padding: 5px 10px;
