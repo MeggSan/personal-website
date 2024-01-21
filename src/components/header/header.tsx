@@ -22,7 +22,7 @@ export const Header = () => {
     <header>
       <div className={styles.header}>
         <Link to={`/`}>
-          <picture>
+          <picture className={styles.pictureLogo}>
             {darkMode ? (
               <img
                 className={styles.logo}

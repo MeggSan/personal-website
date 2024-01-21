@@ -61,8 +61,9 @@ export const AboutMe = () => {
 
   return (
     <section className={styles.aboutMeSection}>
-      <h2 className='pageTitleText'>{t('home.name')}</h2>
-      <span className={`${styles.bigSizeText}`}>
+      <h1 className={styles.bigSizeText}>{t('home.name')}</h1>
+      <span className={`${styles.bigSizeText} ${styles.extraSpace}`}>
+        &nbsp;
         <TypingEffectText isHome={false} />
       </span>
       <div className={styles.aboutMeContainer}>

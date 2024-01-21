@@ -7,7 +7,7 @@
 .typingEffectText::before {
   content: "";
   right: -8px;
-  top: 52%;
+  top: 54%;
   position: absolute;
   height: 2rem;
   width: 2px;
@@ -28,17 +28,14 @@
 
 @media screen and (max-width: 768px) {
   .typingEffectText::before {
-    height: 1.4rem;
-  }
-
-  .typingEffectTextAboutMe::before {
-    top: 35%;
+    top: 53%;
+    height: 1.6rem;
   }
 }
 
 @media screen and (max-width: 576px) {
   .typingEffectTextHome::before {
-    top: 48%;
-    height: 1rem;
+    top: 58%;
+    height: 1.1rem;
   }
 }

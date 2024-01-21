@@ -51,9 +51,7 @@ export const TypingEffectText = ({ isHome = false }: { isHome: boolean }) => {
   };
 
   return (
-    <span
-      className={`${styles.typingEffectText} ${isHome ? styles.typingEffectTextHome : styles.typingEffectTextAboutMe}`}
-    >
+    <span className={`${styles.typingEffectText} ${isHome ? styles.typingEffectTextHome : ''}`}>
       <b>{text}</b>
     </span>
   );
