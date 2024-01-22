@@ -1,7 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import styles from './typingEffectText.module.css';
+
+const period = 2000;
 
 export const TypingEffectText = ({ isHome = false }: { isHome: boolean }) => {
   const { t } = useTranslation();
@@ -16,7 +18,13 @@ export const TypingEffectText = ({ isHome = false }: { isHome: boolean }) => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const isSafariBrowserRef = useRef(false);
+
+  useEffect(() => {
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+      isSafariBrowserRef.current = true;
+    }
+  }, []);
 
   useEffect(() => {
     const ticker = setInterval(() => {
@@ -51,7 +59,11 @@ export const TypingEffectText = ({ isHome = false }: { isHome: boolean }) => {
   };
 
   return (
-    <span className={`${styles.typingEffectText} ${isHome ? styles.typingEffectTextHome : ''}`}>
+    <span
+      className={`${styles.typingEffectText} ${
+        isSafariBrowserRef.current ? styles.typingEffectTextSafari : styles.typingEffectText
+      } ${isHome ? styles.typingEffectTextHome : ''}`}
+    >
       <b>{text}</b>
     </span>
   );

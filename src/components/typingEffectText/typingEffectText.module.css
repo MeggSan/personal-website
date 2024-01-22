@@ -20,6 +20,10 @@
   animation: none;
 }
 
+.typingEffectTextSafari::before {
+  content: none;
+}
+
 @keyframes blink {
   50% {
     opacity: 0;
