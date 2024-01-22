@@ -88,18 +88,22 @@
 }
 
 @media screen and (max-width: 768px) {
-  .projectDetailInformationContainer {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  .sliderProjectDetailMobile {
+    max-width: 320px;
+  }
+
+  .sliderProjectDetailWeb {
+    max-width: 500px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .sliderProjectDetailMobile {
-    max-width: 300px;
+    max-width: 290px;
   }
 
   .sliderProjectDetailWeb {
-    max-width: 300px;
+    max-width: 290px;
   }
 }
 
