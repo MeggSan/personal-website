@@ -29,8 +29,8 @@ import JestIcon from '@assets/images/coloredIcons/jestIcon.svg';
 import CypressIcon from '@assets/images/coloredIcons/cypressIcon.svg';
 import TailwindIcon from '@assets/images/coloredIcons/tailwindIcon.svg';
 
-import DarkBGPhoto from '@assets/images/photos/photo-dark.jpeg';
-import LightBGPhoto from '@assets/images/photos/photo-light.jpeg';
+import DarkBGPhoto from '@assets/images/photos/photo-dark.webp';
+import LightBGPhoto from '@assets/images/photos/photo-light.webp';
 
 const technologiesTools = [
   { icon: JavascriptIcon, name: 'JavaScript' },
@@ -67,7 +67,13 @@ export const AboutMe = () => {
         <TypingEffectText isHome={false} />
       </span>
       <div className={styles.aboutMeContainer}>
-        <img className={styles.personalPhoto} src={darkMode ? LightBGPhoto : DarkBGPhoto} alt='' />
+        <img
+          className={styles.personalPhoto}
+          src={darkMode ? LightBGPhoto : DarkBGPhoto}
+          alt='Meggie Photo'
+          width={250}
+          height={250}
+        />
         <div>
           <p className={styles.aboutMeText}>{t('aboutMe.aboutMeText1')}</p>
           <p className={styles.aboutMeText}>{t('aboutMe.aboutMeText2')}</p>
