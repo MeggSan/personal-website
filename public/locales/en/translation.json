@@ -33,56 +33,64 @@
         "github": null,
         "playstore": "https://play.google.com/store/apps/details?id=com.marbyl&pcampaignid=web_share",
         "appstore": "https://apps.apple.com/us/app/marbyl/id1606442385"
-      }
+      },
+      "alt": "Marbyl Application Project Image"
     },
     "2": {
       "title": "Slon Care",
       "description": "Web system for health savings with a payment gateway, where different users can obtain services from doctors and / or clinics such as medical appointments, surgical operations, emergency tickets, among others.",
       "type": "Websystem",
       "year": "2019",
-      "links": { "web": "https://sloncare.netlify.app/", "github": "" }
+      "links": { "web": "https://sloncare.netlify.app/", "github": "" },
+      "alt": "Slon Care Website Project Image"
     },
     "3": {
       "title": "Wayu Inc",
       "description": "Corporate website to offer different development services in technology, digital marketing and design. It also has a contact form, about us, and the different technologies that have been worked with.",
       "type": "Website",
       "year": "2019",
-      "links": { "web": "https://wayuinc.netlify.app/", "github": null, "playstore": null, "appstore": null }
+      "links": { "web": "https://wayuinc.netlify.app/", "github": null, "playstore": null, "appstore": null },
+      "alt": "Wayu Inc Website Project Image"
     },
     "4": {
       "title": "Pavimenti Store App",
       "description": "E-commerce mobile application for the sale of construction materials. It has: user registration and login, store location, promotions, payment registration, physical or home delivery of products, and store contact.",
       "type": "Mobile Application",
       "year": "2018",
-      "links": null
+      "links": null,
+      "alt": "Pavimenti Store Application Project Image"
     },
     "5": {
       "title": "Bison Reserve App",
       "description": "Mobile application of the Bison Reserve system, where users belonging to a sports center or gym can observe: disciplines, class calendar with their schedule and coach, reservation of classes they wish to attend, score of classes in which a user participated, payment through the platform, record of the last payments made, relevant news and information from the sports center / gym.",
       "type": "Mobile Application",
       "year": "2020",
-      "links": null
+      "links": null,
+      "alt": "Bison Reserve Application Project Image"
     },
     "6": {
       "title": "Alternos",
       "description": "Corporate website with a landing web structure dedicated to communication production and dissemination. Sections of: about us, services, news, among others.",
       "type": "Website",
       "year": "2019",
-      "links": { "web": "https://alternos.netlify.app/", "github": "" }
+      "links": { "web": "https://alternos.netlify.app/", "github": "" },
+      "alt": "Alternos Website Project Image"
     },
     "7": {
       "title": "Bison Reserve Landing Page",
       "description": "Informative website on reservation services for sports centers and gyms, plans and prices, and information on upcoming versions of Bison Reserve in other areas.",
       "type": "Website",
       "year": "2020",
-      "links": { "web": "https://bison-gym.netlify.app/", "github": "" }
+      "links": { "web": "https://bison-gym.netlify.app/", "github": "" },
+      "alt": "Bison Reserve Website Project Image"
     },
     "8": {
       "title": "Botica Junin",
       "description": "E-commerce mobile application for pharmacy. It has: registration and user login, stores' location, promotions, shopping cart, physical or home delivery of products, store contact and medication reminder.",
       "type": "Mobile Application",
       "year": "2018",
-      "links": null
+      "links": null,
+      "alt": "Botica Junin Project Image"
     }
   },
   "projectDetail": {

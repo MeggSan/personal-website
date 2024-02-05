@@ -33,56 +33,64 @@
         "github": null,
         "playstore": "https://play.google.com/store/apps/details?id=com.marbyl&pcampaignid=web_share",
         "appstore": "https://apps.apple.com/us/app/marbyl/id1606442385"
-      }
+      },
+      "alt": "Marbyl Application Project Image"
     },
     "2": {
       "title": "Slon Care",
       "description": "Web-System für Einsparungen im Gesundheitswesen mit einer Zahlungsschnittstelle, über die verschiedene Benutzer Dienstleistungen von Ärzten und/oder Kliniken wie Arzttermine, chirurgische Eingriffe, Notfallkarten usw. anfordern können.",
       "type": "Websystem",
       "year": "2019",
-      "links": { "web": "https://sloncare.netlify.app/", "github": "" }
+      "links": { "web": "https://sloncare.netlify.app/", "github": "" },
+      "alt": "Slon Care Website Project Image"
     },
     "3": {
       "title": "Wayu Inc",
       "description": "Unternehmenswebsite zum Angebot verschiedener Entwicklungsdienste in Technologie, Digitalmarketing und Design. Sie enthält auch ein Kontaktformular, einen Abschnitt \"Über uns\" und die verschiedenen Technologien, mit denen gearbeitet wurde.",
       "type": "Webseite",
       "year": "2019",
-      "links": { "web": "https://wayuinc.netlify.app/", "github": null, "playstore": null, "appstore": null }
+      "links": { "web": "https://wayuinc.netlify.app/", "github": null, "playstore": null, "appstore": null },
+      "alt": "Wayu Inc Website Project Image"
     },
     "4": {
       "title": "Pavimenti Store App",
       "description": "E-Commerce-App für den Verkauf von Baumaterialien. Sie enthält: Registrierung und Anmeldung von Nutzern, Standort der Geschäfte, Gutscheine, Registrierung der Zahlung, Lieferung nach Hause oder in die Geschäfte und Kontakt zur Geschäftsstelle.",
       "type": "Mobile Applikation",
       "year": "2018",
-      "links": null
+      "links": null,
+      "alt": "Pavimenti Store Application Project Image"
     },
     "5": {
       "title": "Bison Reserve App",
       "description": "Mobile App des Bison Reserve-Systems, mit der Benutzer, die einem Fitnessstudio oder Gym angehören, Folgendes sehen können: Disziplinen, Stundenplan mit Zeitplan und Trainer, Buchung von Kursen, an denen sie teilnehmen möchten, Bewertung von Kursen, an denen ein Benutzer teilgenommen hat, Zahlung über die Plattform, Aufzeichnung der letzten getätigten Zahlungen, relevante Neuigkeiten und Informationen aus dem Fitnessstudio/Gym.",
       "type": "Mobile Applikation",
       "year": "2020",
-      "links": null
+      "links": null,
+      "alt": "Bison Reserve Application Project Image"
     },
     "6": {
       "title": "Alternos",
       "description": "Unternehmenswebsite mit einer Landing-Webstruktur, die der Produktion und Verbreitung von Kommunikation gewidmet ist. Abschnitte: Über uns, Dienstleistungen, Nachrichten usw.",
       "type": "Webseite",
       "year": "2019",
-      "links": { "web": "https://alternos.netlify.app/", "github": "" }
+      "links": { "web": "https://alternos.netlify.app/", "github": "" },
+      "alt": "Alternos Website Project Image"
     },
     "7": {
       "title": "Bison Reserve Landing Page",
       "description": "Informationswebsite über Reservierungsdienste für Fitnessstudios, Pläne und Preise sowie Informationen über zukünftige Versionen von Bison Reserve in anderen Regionen.",
       "type": "Webseite",
       "year": "2020",
-      "links": { "web": "https://bison-gym.netlify.app/", "github": "" }
+      "links": { "web": "https://bison-gym.netlify.app/", "github": "" },
+      "alt": "Bison Reserve Website Project Image"
     },
     "8": {
       "title": "Botica Junin",
       "description": "Applikation für den E-Commerce für Apotheken. Sie enthält: Registrierung und Anmeldung von Nutzern, Standorte der Apotheken, Gutscheine, Warenkorb, Lieferung nach Hause oder in die Apotheke, Kontakt zur Apotheke und Medikamentenerinnerung.",
       "type": "Mobile Applikation",
       "year": "2018",
-      "links": null
+      "links": null,
+      "alt": "Botica Junin Project Image"
     }
   },
   "projectDetail": {

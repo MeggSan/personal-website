@@ -24,7 +24,7 @@ export const Projects = () => {
               <img
                 className={type === WEB ? styles.projectWebImage : styles.projectMobileImage}
                 src={images[0]}
-                alt={title}
+                alt={t(`projects.${id}.alt`)}
               />
             </Link>
           );
