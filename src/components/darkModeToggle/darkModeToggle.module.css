@@ -1,5 +1,12 @@
 .darkMode {
   display: flex;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.darkMode:hover {
+  border: 1px solid var(--primary-color);
 }
 
 .darkModeLabel {
@@ -50,6 +57,14 @@
   left: 62px;
   transform: translateX(-100%);
   background: linear-gradient(180deg, #777, #3a3a3a);
+}
+
+.darkModeInput:focus+.darkModeLabel {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+.darkModeInput:focus-within+.darkModeLabel {
+  outline: var(--background-color) auto 1px;
 }
 
 .darkModeLabel:active:after {

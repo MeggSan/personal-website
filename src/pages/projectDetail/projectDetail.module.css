@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.projectDetailImage {
+  cursor: grab;
+}
+
+.projectDetailImage:active {
+  cursor: grabbing;
+}
+
 .sliderProjectDetail {
   margin: 0 auto;
   padding: 0 4rem;

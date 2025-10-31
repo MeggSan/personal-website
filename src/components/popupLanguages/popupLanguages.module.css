@@ -32,14 +32,14 @@
   outline: 1px solid var(--primary-color);
 }
 
-.buttonPopupIsInactive:focus {
-  outline: none;
-}
-
 .buttonLngAbbr {
   width: 100%;
 }
 
 .buttonLngAbbr:hover {
   border-color: var(--primary-color);
+}
+
+.buttonLngAbbr:active {
+  outline: none;
 }

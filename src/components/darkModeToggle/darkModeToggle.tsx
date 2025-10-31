@@ -22,9 +22,10 @@ export const DarkModeToggle = () => {
         role='switch'
         aria-checked={!darkMode}
         aria-label={darkMode ? t('darkModeToggle.enableDarkMode') : t('darkModeToggle.disableDarkMode')}
+        tabIndex={-1}
       />
 
-      <label className={styles.darkModeLabel} htmlFor='dark-mode-toggle'>
+      <label className={styles.darkModeLabel} htmlFor='dark-mode-toggle' tabIndex={0}>
         <SunIcon className={styles.sun} />
         <MoonIcon className={styles.moon} />
       </label>
