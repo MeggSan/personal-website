@@ -9,6 +9,8 @@ export const JavascriptIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-javascript'
+    role='img'
+    aria-label='JavaScript icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='m20 4-2 14.5-6 2-6-2L4 4z' />

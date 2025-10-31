@@ -9,6 +9,8 @@ export const MenuIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-menu-2'
+    aria-hidden='true'
+    focusable='false'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='M4 6h16M4 12h16M4 18h16' />

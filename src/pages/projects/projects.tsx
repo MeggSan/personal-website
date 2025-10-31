@@ -14,17 +14,23 @@ export const Projects = () => {
   const { t } = useTranslation();
 
   return (
-    <section className={styles.projectsContainer}>
+    <section className={styles.projectsContainer} aria-label={t('sections.projects')}>
       <h2 className='pageTitleText'>{t('sections.projects')}</h2>
       <div className={styles.projectsListContainer}>
         {Object.values(PROJECTS_LIST).map(({ id, title, type, images }) => {
           return (
-            <Link className={styles.projectContainer} to={`/${PROJECTS}/${id}`} key={id}>
+            <Link
+              className={styles.projectContainer}
+              to={`/${PROJECTS}/${id}`}
+              key={id}
+              aria-label={`${title} ${t('projects.project')}`}
+            >
               <p className={styles.projectTitle}>{title}</p>
               <img
                 className={type === WEB ? styles.projectWebImage : styles.projectMobileImage}
                 src={images[0]}
-                alt={t(`projects.${id}.alt`)}
+                alt={`${t(`projects.${id}.alt`)}`}
+                aria-hidden={true}
               />
             </Link>
           );

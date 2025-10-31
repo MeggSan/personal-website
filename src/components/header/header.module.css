@@ -20,10 +20,6 @@ header {
   display: none;
 }
 
-.pictureLogo {
-  display: flex;
-}
-
 @media screen and (max-width: 768px) {
   .menuIconContainer {
     display: flex;

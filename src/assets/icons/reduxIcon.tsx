@@ -9,6 +9,8 @@ export const ReduxIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-redux'
+    role='img'
+    aria-label='Redux icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='M16.54 7c-.805-2.365-2.536-4-4.54-4-2.774 0-5.023 2.632-5.023 6.496 0 1.956 1.582 4.727 2.512 6' />

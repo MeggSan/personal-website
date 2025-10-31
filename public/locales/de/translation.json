@@ -1,8 +1,32 @@
 {
   "sections": {
+    "home": "Startseite",
     "aboutMe": "Über mich",
     "projects": "Projekte",
+    "projectDetail": "Projektdetails",
     "lab": "Lab"
+  },
+  "navbar": {
+    "mainNavigation": "Haupt Navigation"
+  },
+  "darkModeToggle": {
+    "enableDarkMode": "Dunkelmodus aktivieren",
+    "disableDarkMode": "Dunkelmodus deaktivieren"
+  },
+  "languages": {
+    "en": "Englisch",
+    "es": "Spanisch",
+    "de": "Deutsch"
+  },
+  "header": {
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "returnHome": "Zur Startseite gehen"
+  },
+  "popupLanguages": {
+    "currentLanguage": "Aktuelle Sprache",
+    "chooseLanguage": "Sprache auswählen",
+    "changeLanguage": "Sprache ändern zu"
   },
   "home": {
     "hello1": "Hallo, ich heiße",
@@ -20,7 +44,8 @@
     "aboutMeText2": "📚 Ich verfüge über fundierte Kenntnisse in ReactJS, JavaScript, TypeScript, HTML5 und CSS3, die meine bevorzugten Stacks für die Arbeit sind, aber ich habe auch Erfahrung mit React Native, NextJS und Angular 2+.",
     "aboutMeText3": "📱 Ich bin leidenschaftlich daran interessiert, Geschäftsanforderungen in funktionale und responsive Layouts/Schnittstellen zu übersetzen.",
     "aboutMeText4": "🎯 Der beste Ort zum Arbeiten ist dort, wo ich ermutigt werde, mich weiterzuentwickeln und meine Fähigkeiten zu verbessern, wo ich wirklich etwas bewirken und eine erfolgreiche Karriere aufbauen kann.",
-    "technologiesAndTools": "Technologien und Tools, die ich verwendet habe"
+    "technologiesAndTools": "Technologien und Tools, die ich verwendet habe",
+    "meggiesPhoto": "Meggies Sanchez-Foto"
   },
   "projects": {
     "1": {
@@ -91,7 +116,8 @@
       "year": "2018",
       "links": null,
       "alt": "Botica Junin Project Image"
-    }
+    },
+    "project": "Projekt"
   },
   "projectDetail": {
     "title": "Titel",

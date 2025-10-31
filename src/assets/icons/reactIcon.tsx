@@ -9,6 +9,8 @@ export const ReactIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-react'
+    role='img'
+    aria-label='React icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='M6.306 8.711C3.704 9.434 2 10.637 2 12c0 2.21 4.477 4 10 4 .773 0 1.526-.035 2.248-.102M17.692 15.289C20.295 14.567 22 13.363 22 12c0-2.21-4.477-4-10-4-.773 0-1.526.035-2.25.102' />

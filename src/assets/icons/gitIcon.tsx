@@ -9,6 +9,8 @@ export const GitIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-git'
+    role='img'
+    aria-label='Git icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='M15 12a1 1 0 1 0 2 0 1 1 0 1 0-2 0M11 8a1 1 0 1 0 2 0 1 1 0 1 0-2 0M11 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0M12 15V9M15 11l-2-2M11 7 9.1 5.1' />

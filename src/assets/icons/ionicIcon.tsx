@@ -1,5 +1,13 @@
 export const IonicIcon = () => (
-  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28' width={24} height={24} fill='none'>
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    viewBox='0 0 28 28'
+    width={24}
+    height={24}
+    fill='none'
+    role='img'
+    aria-label='Ionic icon'
+  >
     <path
       fill='currentColor'
       d='M3.36 14C3.36 8.124 8.124 3.36 14 3.36c2.366 0 4.55.77 6.317 2.077a4.01 4.01 0 0 1 2.547-2.274A13.948 13.948 0 0 0 14 0C6.268 0 0 6.268 0 14s6.268 14 14 14 14-6.268 14-14c0-1.618-.275-3.175-.782-4.624a3.995 3.995 0 0 1-3.008 1.618c.28.952.43 1.96.43 3.006 0 5.876-4.764 10.64-10.64 10.64S3.36 19.876 3.36 14Z'

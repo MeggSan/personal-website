@@ -9,6 +9,8 @@ export const ViteIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-vite'
+    role='img'
+    aria-label='Vite icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='M10 4.5 16 3l-2 6.5 2-.5-4 7v-5l-3 1z' />

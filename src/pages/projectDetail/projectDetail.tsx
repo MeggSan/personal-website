@@ -82,7 +82,10 @@ export const ProjectDetail = () => {
   }, []);
 
   return (
-    <section className={styles.projectDetailContainer}>
+    <section
+      className={styles.projectDetailContainer}
+      aria-label={`${t('sections.projectDetail')}: ${t(`projects.${projectId}.title`)}`}
+    >
       <h2 className='pageTitleText'>{t(`projects.${projectId}.title`)}</h2>
       <div
         className={`${styles.sliderProjectDetail} ${
