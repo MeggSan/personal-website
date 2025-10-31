@@ -20,15 +20,23 @@ export const Navbar = ({ showMenu }: { showMenu: boolean }) => {
   const path = location.pathname.split('/')[1];
 
   return (
-    <nav className={showMenu ? '' : styles.navbar}>
+    <nav id='main-navigation' className={showMenu ? '' : styles.navbar} aria-label={t('navbar.mainNavigation')}>
       <ul>
         <li>
-          <Link to={ABOUT_ME} className={path === ABOUT_ME ? styles.currentRoute : ''}>
+          <Link
+            to={ABOUT_ME}
+            className={path === ABOUT_ME ? styles.currentRoute : ''}
+            aria-current={path === ABOUT_ME ? 'page' : undefined}
+          >
             {t('sections.aboutMe')}
           </Link>
         </li>
         <li>
-          <Link to={PROJECTS} className={path === PROJECTS ? styles.currentRoute : ''}>
+          <Link
+            to={PROJECTS}
+            className={path === PROJECTS ? styles.currentRoute : ''}
+            aria-current={path === PROJECTS ? 'page' : undefined}
+          >
             {t('sections.projects')}
           </Link>
         </li>

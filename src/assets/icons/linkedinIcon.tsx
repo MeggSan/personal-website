@@ -9,6 +9,8 @@ export const LinkedinIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-linkedin'
+    role='img'
+    aria-label='LinkedIn icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM8 11v5M8 8v.01M12 16v-5' />

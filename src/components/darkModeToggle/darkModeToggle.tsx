@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { DarkModeContext } from '@contexts/darkModeContext';
 import { SunIcon } from '@assets/icons/sunIcon';
@@ -8,6 +9,7 @@ import styles from './darkModeToggle.module.css';
 
 export const DarkModeToggle = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+  const { t } = useTranslation();
 
   return (
     <div className={styles.darkMode}>
@@ -16,8 +18,12 @@ export const DarkModeToggle = () => {
         type='checkbox'
         id='dark-mode-toggle'
         onChange={toggleDarkMode}
-        defaultChecked={!darkMode}
+        checked={!darkMode}
+        role='switch'
+        aria-checked={!darkMode}
+        aria-label={darkMode ? t('darkModeToggle.enableDarkMode') : t('darkModeToggle.disableDarkMode')}
       />
+
       <label className={styles.darkModeLabel} htmlFor='dark-mode-toggle'>
         <SunIcon className={styles.sun} />
         <MoonIcon className={styles.moon} />

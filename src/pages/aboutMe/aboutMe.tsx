@@ -60,7 +60,7 @@ export const AboutMe = () => {
   const { darkMode } = useContext(DarkModeContext);
 
   return (
-    <section className={styles.aboutMeSection}>
+    <section className={styles.aboutMeSection} aria-label={t('sections.aboutMe')}>
       <h1 className={styles.bigSizeText}>{t('home.name')}</h1>
       <span className={`${styles.bigSizeText} ${styles.extraSpace}`}>
         &nbsp;
@@ -70,7 +70,7 @@ export const AboutMe = () => {
         <img
           className={styles.personalPhoto}
           src={darkMode ? LightBGPhoto : DarkBGPhoto}
-          alt='Meggie Photo'
+          alt={t('aboutMe.meggiesPhoto')}
           width={250}
           height={250}
         />

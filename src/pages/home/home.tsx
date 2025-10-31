@@ -9,7 +9,7 @@ export const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <section className={styles.homeContainer}>
+    <section className={styles.homeContainer} aria-label={t('sections.home')}>
       <h3 className={`${styles.titleText} ${styles.mediumSizeText}`}>{t('home.hello1')}</h3>
       <div className={styles.nameContainer}>
         <h1 className={`${styles.titleText} ${styles.bigSizeText}`}>{t('home.name')}</h1>

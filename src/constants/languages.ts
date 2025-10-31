@@ -1,5 +1,5 @@
 export const LANGUAGES = {
-  EN: { abbreviation: 'EN', name: 'English' },
-  ES: { abbreviation: 'ES', name: 'Spanish' },
-  DE: { abbreviation: 'DE', name: 'German' },
+  EN: { abbreviation: 'EN', name: 'english' },
+  ES: { abbreviation: 'ES', name: 'spanish' },
+  DE: { abbreviation: 'DE', name: 'german' },
 };

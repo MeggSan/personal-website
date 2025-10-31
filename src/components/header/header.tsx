@@ -1,5 +1,6 @@
 import { useContext, useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 import { Navbar } from '@components/navbar/navbar';
 import { DarkModeContext } from '@contexts/darkModeContext';
@@ -12,8 +13,11 @@ import styles from './header.module.css';
 
 export const Header = () => {
   const { darkMode } = useContext(DarkModeContext);
+  const { t } = useTranslation();
   const [showMenu, setShowMenu] = useState(false);
   const isMenuDisplayedRef = useRef<HTMLDivElement | null>(null);
+  const location = useLocation();
+  const path = location.pathname;
 
   useEffect(() => {
     document.addEventListener('click', handleClickOutsideMenu, true);
@@ -35,30 +39,23 @@ export const Header = () => {
   return (
     <header ref={isMenuDisplayedRef}>
       <div className={styles.header}>
-        <Link to={`/`}>
-          <picture className={styles.pictureLogo}>
-            {darkMode ? (
-              <img
-                className={styles.logo}
-                src={MSLogoDark}
-                alt='MS Logo Dark Mode Image'
-                width='50'
-                height='50'
-                decoding='async'
-              />
-            ) : (
-              <img
-                className={styles.logo}
-                src={MSLogoLight}
-                alt='MS Logo Light Mode Image'
-                width='50'
-                height='50'
-                decoding='async'
-              />
-            )}
-          </picture>
+        <Link to={`/`} aria-current={path === '/' ? 'page' : undefined}>
+          <img
+            className={styles.logo}
+            src={darkMode ? MSLogoDark : MSLogoLight}
+            alt={t('header.returnHome')}
+            width='50'
+            height='50'
+            decoding='async'
+          />
         </Link>
-        <button className={styles.menuIconContainer} onClick={onClickMenu} aria-label='menu'>
+        <button
+          className={styles.menuIconContainer}
+          onClick={onClickMenu}
+          aria-label={showMenu ? t('header.closeMenu') : t('header.openMenu')}
+          aria-expanded={showMenu}
+          aria-controls='main-navigation'
+        >
           <MenuIcon />
         </button>
       </div>

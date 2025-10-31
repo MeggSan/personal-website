@@ -9,6 +9,8 @@ export const MailIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-mail-filled'
+    role='img'
+    aria-label='Mail icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path

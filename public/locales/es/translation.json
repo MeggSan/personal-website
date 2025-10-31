@@ -1,8 +1,31 @@
 {
   "sections": {
-    "aboutMe": "Sobre mí",
+    "home": "Página de inicio",
     "projects": "Proyectos",
+    "projectDetail": "Detalle del proyecto",
     "lab": "Laboratorio"
+  },
+  "navbar": {
+    "mainNavigation": "Navegación principal"
+  },
+  "darkModeToggle": {
+    "enableDarkMode": "Activar modo oscuro",
+    "disableDarkMode": "Desactivar modo oscuro"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "de": "Alemán"
+  },
+  "header": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "returnHome": "Ir a la página de inicio"
+  },
+  "popupLanguages": {
+    "currentLanguage": "Idioma actual",
+    "chooseLanguage": "Elige un idioma",
+    "changeLanguage": "Cambia el idioma a"
   },
   "home": {
     "hello1": "Hola, mi nombre es",
@@ -20,7 +43,8 @@
     "aboutMeText2": "📚 Tengo conocimientos competentes en ReactJS, JavaScript, TypeScript, HTML5 y CSS3, que son mis tecnologías favoritas para trabajar, pero también tengo experiencia con React Native, NextJS y Angular 2+.",
     "aboutMeText3": "📱 Me apasiona transformar los requisitos comerciales en diseños/interfaces funcionales y responsivos.",
     "aboutMeText4": "🎯 El mejor lugar para trabajar es donde me alienten a crecer y desarrollar mis habilidades, generar un impacto real y continuar construyendo una carrera exitosa.",
-    "technologiesAndTools": "Tecnologías y herramientas que he usado"
+    "technologiesAndTools": "Tecnologías y herramientas que he usado",
+    "meggiesPhoto": "Foto de Meggie Sanchez"
   },
   "projects": {
     "1": {
@@ -91,7 +115,8 @@
       "year": "2018",
       "links": null,
       "alt": "Imagen del proyecto de Botica Junin App"
-    }
+    },
+    "project": "proyecto"
   },
   "projectDetail": {
     "title": "Título",

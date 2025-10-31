@@ -1,8 +1,32 @@
 {
   "sections": {
+    "home": "Home",
     "aboutMe": "About Me",
     "projects": "Projects",
+    "projectDetail": "Project Detail",
     "lab": "Lab"
+  },
+  "navbar": {
+    "mainNavigation": "Main Navigation"
+  },
+  "darkModeToggle": {
+    "enableDarkMode": "Enable dark mode",
+    "disableDarkMode": "Disable dark mode"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "de": "German"
+  },
+  "header": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "returnHome": "Go to Home page"
+  },
+  "popupLanguages": {
+    "currentLanguage": "Current language",
+    "chooseLanguage": "Choose language",
+    "changeLanguage": "Change language to"
   },
   "home": {
     "hello1": "Hello, my name is",
@@ -20,7 +44,8 @@
     "aboutMeText2": "📚 I have proficient knowledge in ReactJS, JavaScript, TypeScript, HTML5, and CSS3, which is my favorite stack to work with, but I also have experience with React Native, NextJS, and Angular 2+.",
     "aboutMeText3": "📱 I am passionate about translating business requirements into functional and responsive layouts/interfaces.",
     "aboutMeText4": "🎯 The best place to work is where I’m encouraged to grow and develop my skills, make a real impact, and continue building a successful career.",
-    "technologiesAndTools": "Technologies and tools I have used"
+    "technologiesAndTools": "Technologies and tools I have used",
+    "meggiesPhoto": "Meggie's Sanchez Photo"
   },
   "projects": {
     "1": {
@@ -91,7 +116,8 @@
       "year": "2018",
       "links": null,
       "alt": "Botica Junin Project Image"
-    }
+    },
+    "project": "project"
   },
   "projectDetail": {
     "title": "Title",

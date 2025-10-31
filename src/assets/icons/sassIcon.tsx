@@ -9,6 +9,8 @@ export const SassIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-sass'
+    role='img'
+    aria-label='SASS icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='M3 12a9 9 0 1 0 18 0 9 9 0 1 0-18 0' />

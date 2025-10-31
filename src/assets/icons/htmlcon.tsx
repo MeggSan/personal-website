@@ -9,6 +9,8 @@ export const HtmlIcon = () => (
     strokeLinejoin='round'
     strokeWidth={2}
     className='icon icon-tabler icon-tabler-brand-html5'
+    role='img'
+    aria-label='HTML icon'
   >
     <path stroke='none' d='M0 0h24v24H0z' />
     <path d='m20 4-2 14.5-6 2-6-2L4 4z' />

@@ -7,7 +7,7 @@ import { InternalizationIcon } from '@assets/icons/internalizationIcon';
 import styles from './popupLanguages.module.css';
 
 export const PopupLanguages = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [isActivePopup, setIsActivePopup] = useState(false);
   const isActivePopupRef = useRef(false);
   const popupLanguagesRef = useRef<HTMLDivElement | null>(null);
@@ -20,7 +20,7 @@ export const PopupLanguages = () => {
     };
   }, []);
 
-  const handleClickOutsidePopup = ({ target }: MouseEvent): void => {
+  const handleClickOutsidePopup = ({ target }: MouseEvent) => {
     if (!popupLanguagesRef.current?.contains(target as Node)) {
       if (isActivePopupRef.current) {
         setIsActivePopup(false);
@@ -29,12 +29,12 @@ export const PopupLanguages = () => {
     }
   };
 
-  const changeLanguage = (language: string): void => {
+  const changeLanguage = (language: string) => {
     i18n.changeLanguage(language.toLowerCase());
     onClickPopupLanguages();
   };
 
-  const onClickPopupLanguages = (): void => {
+  const onClickPopupLanguages = () => {
     setIsActivePopup(!isActivePopup);
     isActivePopupRef.current = !isActivePopupRef.current;
   };
@@ -44,20 +44,26 @@ export const PopupLanguages = () => {
       <button
         className={`${styles.buttonPopup} ${isActivePopup ? null : styles.buttonPopupIsInactive}`}
         onClick={onClickPopupLanguages}
-        aria-label={`change current language: ${i18n.resolvedLanguage}`}
+        aria-label={`${t('popupLanguages.currentLanguage')}: ${t(`languages.${i18n.resolvedLanguage}`)}. ${t(
+          'popupLanguages.chooseLanguage',
+        )}`}
+        aria-expanded={isActivePopup}
+        aria-controls='language-list'
       >
         {i18n.resolvedLanguage?.toUpperCase()}&nbsp;
         <InternalizationIcon />
       </button>
-      <div className={isActivePopup ? styles.popupMenuOpened : styles.popupMenu}>
+      <div id='language-list' className={isActivePopup ? styles.popupMenuOpened : styles.popupMenu}>
         {Object.entries(LANGUAGES).map((lng) => {
           const [key, value] = lng;
+          const isCurrent = key === i18n.resolvedLanguage;
           return (
             <button
               className={styles.buttonLngAbbr}
               key={key}
               onClick={() => changeLanguage(key)}
-              aria-label={value.name}
+              aria-label={`${t('popupLanguages.changeLanguage')} ${t(`languages.${key.toLowerCase()}`)}`}
+              aria-current={isCurrent ? 'true' : undefined}
             >
               {value.abbreviation}
             </button>
